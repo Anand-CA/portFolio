@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+
+.contact {
+}
+.contact__container {
+   /* background-color: tomato; */
+   max-width: 800px;
+   margin: 0px auto;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+   border-radius: 10px;
+   height: 100%;
+}
+
+.contact__container h1 {
+   color: #fff;
+   font-size: 35px;
+   font-family: "Montserrat", sans-serif;
+   border-bottom: 5px solid gray;
+   margin-bottom: 3%;
+}
+.contact__form {
+   display: flex;
+   flex-flow: row wrap;
+   width: 100%;
+   justify-content: center;
+}
+.contact__form input {
+   width: 100%;
+   padding: 14px 10px;
+   border-radius: 4px;
+}
+.name {
+   /* background-color: lightgreen; */
+   flex: 1 46%;
+   margin: 2%;
+   justify-content: space-evenly;
+   height: 70px;
+   display: flex;
+   flex-direction: column;
+}
+.contact__form label {
+   margin-bottom: 1%;
+   font-size: 20px;
+   color: lightgray;
+   font-family: "Ubuntu", sans-serif;
+}
+.email {
+   /* background-color:lightgray; */
+   display: flex;
+   flex-direction: column;
+   flex: 1 46%;
+   justify-content: space-evenly;
+   margin: 2%;
+   height: 70px;
+}
+.message {
+   /* background-color: brown; */
+   flex: 1 100%;
+   margin: 2%;
+   display: flex;
+   flex-direction: column;
+}
+.message textarea {
+   border-radius: 4px;
+   padding: 10px;
+}
+.contact__container button {
+   color: #fff;
+   border: 1px solid rgb(23, 23, 145);
+   padding: 10px 25px;
+   border-radius: 99px;
+   margin: 10px 0px 30px 0px;
+}
+.contact__container button:hover {
+   background-color: rgb(38, 38, 117);
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    /* background-color:gray; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer__logo{
+    height: 50px;
+    margin: 0px 20px;
+}
+.fontawesome__icon{
+   color: white;
+   margin: 0px 13px;
+}
+.fontawesome__icon:hover{
+   color: gray;
+}
+
+@media screen and (max-width: 600px) {
+   .contact__form {
+      padding: 20px;
+   }
+   .contact__form label {
+  
+      font-size: 18px;
+   }
+   .contact__form input {
+      padding: 10px 10px;
+   }
+   .contact__container h1 {
+      font-size: 30px;
+   }
+   .name {
+      flex: 1 100%;
+   }
+   .label{
+       margin-top: 3%;
+   }
+}

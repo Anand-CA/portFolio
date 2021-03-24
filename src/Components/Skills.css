@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+.skills {
+}
+.header__text {
+   font-family: "Montserrat", sans-serif;
+   color: #fff;
+   display: flex;
+   justify-content:center;
+}
+.header__text h1 {
+   border-bottom: 5px solid gray;
+}
+.row {
+   display: flex;
+   flex-flow: row wrap;
+   justify-content: center;
+   color: #fff;
+   align-items: center;
+   /* background-color: tomato; */
+   max-width: 1200px;
+   margin: 0px auto;
+}
+.skills__container__left {
+   flex: 1 46%;
+   margin: 2%;
+   display: flex;
+   justify-content: center;
+}
+.skills__container__right {
+   flex: 1 50%;
+   display: flex;
+   flex-flow: row wrap;
+  
+}
+.skills__container__right__left {
+   flex: 1 46%;
+   margin: 2%;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+}
+.skills__container__right__right {
+   flex: 1 46%;
+   margin: 2%;
+   display: grid;
+   justify-content: center;
+   align-items: center;
+}
+.skills__container__right h5 {
+   font-style: italic;
+   margin: 10px 0px;
+}
+.svg {
+   /* height: 400px;
+  width: 400px; */
+   max-width: 400px;
+   object-fit: contain;
+}
+.skills__container__right > img:hover {
+   transform: scale(1.1);
+}
+.skillsRow {
+   display: flex;
+   justify-content: space-evenly;
+}
+.h5 {
+   margin-top: 20px;
+}
+ul {
+   margin-left: 20px;
+}
+@media screen and (max-width: 892px) {
+   .skills__container__left {
+      flex: 1 96%;
+      margin: 2%;
+   }
+   .skills__container__right {
+      flex: 1 96%;
+      margin: 2%;
+   }
+   .skills__container__right__left {
+      flex: 1 44%;
+      
+      display: grid;
+      justify-content: center;
+      align-items: center;
+   }
+   .skills__container__right__right {
+      flex: 1 40%;
+      
+      display: grid;
+      justify-content: center;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 680px) {
+}
