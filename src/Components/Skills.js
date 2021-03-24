@@ -20,7 +20,7 @@ function Skills({ id }) {
                <div className="skills__container__right">
                   <div className="skills__container__right__left">
                      <h5 className="text-xl font-sans ... italic	font-semibold">
-                        FronEnd Development
+                        FrontEnd Development
                      </h5>
                      <ul className="font-mono ...">
                         <li>✭ HTML</li>

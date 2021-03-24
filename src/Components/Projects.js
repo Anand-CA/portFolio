@@ -8,7 +8,7 @@ function Projects({ id }) {
    return (
       <div className="projects mt-20 mb-14" id={id}>
          <div className="header__text mb-10">
-            <h1 className="text-4xl">PROJECTS</h1>
+            <h1 className="text-4xl">Projects</h1>
          </div>
          <Row
             img="https://i.ibb.co/hcLrjYV/amazon.png"
@@ -30,11 +30,11 @@ function Projects({ id }) {
          />
          <Row
             img="https://i.ibb.co/dL26YWB/insta.png"
-            title="REALTIME CHAT"
+            title="INSTAGRAM CLONE"
             features={[
                "user authentication",
                "upload images",
-               "upload story",
+               "story feature",
                "firebase",
             ]}
             link="https://instagram-clone-react-227e8.web.app"
