@@ -19,27 +19,36 @@ function Skills({ id }) {
                </div>
                <div className="skills__container__right">
                   <div className="skills__container__right__left">
-                     <h5 className="text-xl font-sans ... italic	font-semibold">FronEnd Development</h5>
-                     <ul className="font-mono ..."> 
+                     <h5 className="text-xl font-sans ... italic	font-semibold">
+                        FronEnd Development
+                     </h5>
+                     <ul className="font-mono ...">
                         <li>✭ HTML</li>
                         <li>✭ Css</li>
                         <li>✭ Javascript</li>
+                        <li>✭ React</li>
                      </ul>
-                     <h5 className="text-xl font-sans ... italic	font-semibold">BackendDevelopment</h5>
+                     <h5 className="text-xl font-sans ... italic	font-semibold">
+                        BackendDevelopment
+                     </h5>
                      <ul className="font-mono ...">
                         <li>✭ Nodejs</li>
                         <li>✭ Express</li>
                      </ul>
                   </div>
                   <div className="skills__container__right__right">
-                  <h5 className="text-xl font-sans ... italic	font-semibold	">Frameworks</h5>
+                     <h5 className="text-xl font-sans ... italic	font-semibold	">
+                        Frameworks
+                     </h5>
 
-                     <ul className="font-mono ..."> 
+                     <ul className="font-mono ...">
                         <li>✭ Bootstrap</li>
-                        <li>✭ React</li>
+
                         <li>✭ Material Ui</li>
                      </ul>
-                     <h5 className="text-xl font-sans ... italic	font-semibold">Databases</h5>
+                     <h5 className="text-xl font-sans ... italic	font-semibold">
+                        Databases
+                     </h5>
                      <ul className="font-mono ...">
                         <li>✭ MongoDB</li>
                         <li>✭ Firebase</li>
