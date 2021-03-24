@@ -11,7 +11,7 @@ function Projects({ id }) {
             <h1 className="text-4xl">PROJECTS</h1>
          </div>
          <Row
-            img="https://i.ibb.co/ZXMRFmM/amazon.png"
+            img="https://i.ibb.co/hcLrjYV/amazon.png"
             title="AMAZON CLONE"
             features={[
                "user authentication",
@@ -22,14 +22,14 @@ function Projects({ id }) {
             link="https://optimistic-stonebraker-8c4d29.netlify.app/"
          />
          <Row
-            img="https://i.ibb.co/0nSLqMR/messenger.png"
+            img="https://i.ibb.co/BPP2xkp/messenger.png"
             title="REALTIME CHAT"
             features={["firebase"]}
             reverse={true}
             link="https://messenger-clone-react-f1740.web.app"
          />
          <Row
-            img="https://i.ibb.co/VDPKMdS/insta.png"
+            img="https://i.ibb.co/dL26YWB/insta.png"
             title="REALTIME CHAT"
             features={[
                "user authentication",
